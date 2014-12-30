@@ -99,7 +99,7 @@ def assign_fitness(bits, target_value):
         return 0.999
     else:
         return 1.0/fabs(target_value - result)
-
+# resume point
 def print_chromo(bits):
     buff = []
     num_elements = parse_bits(bits)
@@ -108,3 +108,4 @@ def print_chromo(bits):
         print_gene_symbol(buff
 
 def print_gene_symbol:
+    pass
